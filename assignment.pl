@@ -4,4 +4,4 @@
 
 %insertElementIntoListEnd(El, List)
 
-%Definitions for mergeList(El, List)s
+%Definitions for mergeLists(El, List)
