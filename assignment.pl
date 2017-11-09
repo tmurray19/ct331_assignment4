@@ -2,6 +2,6 @@
 
 %Definitions for reverseList(El, List)
 
-%insertElementIntoList(El, List)
+%insertElementIntoListEnd(El, List)
 
 %Definitions for mergeList(El, List)s
