@@ -1,4 +1,5 @@
 %%%%Definitions for isElementInList(El, List)
+
 %Base Case
 isElementInList(El, [El|_]).
 
@@ -7,6 +8,7 @@ isElementInList(El, [_|T]):-
     isElementInList(El,T).
 
 %%%%Definitions for reverseList(List, ReversedList)
+
 %Base Case
 reverseList([],[]).
 
@@ -15,6 +17,7 @@ reverseList([ListH|ListT], ReversedList):-
     reverseList(ListT, RevT), mergeLists(RevT, [ListH], ReversedList).
 
 %%%%Definitionas for insertElementIntoListEnd(El, List, NewList)
+
 %Base Case
 insertElementIntoListEnd(El, [], [El]).
 
@@ -22,6 +25,7 @@ insertElementIntoListEnd(El, [H|List], [H|NewList]):-
     insertElementIntoListEnd(El, List, NewList).
 
 %%%%Definitions for mergeLists(List1, List2, Merged)
+
 %Base Case
 mergeLists([],L,L).
 
